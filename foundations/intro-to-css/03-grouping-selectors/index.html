@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .text-element {
+        font-size: medium;
+      }
+      #dark-text {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+      }
+      #alarm-text {
+        background-color: #ffed6a;
+      }
+    </style>
   </head>
   <body>
-    <button>Click Me!</button>
-    <button>No, Click Me!</button>
+    <button class="text-element" id="dark-text">Click Me!</button>
+    <button class="text-element" id="alarm-text">No, Click Me!</button>
   </body>
 </html>
